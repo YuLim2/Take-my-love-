@@ -1,0 +1,29 @@
+body{
+    background-color:hsl(308, 43%, 90%);
+}
+
+fieldset {
+	text-align: center;
+	border: 5px solid;
+    color: hsl(315, 87%, 78%);
+	border-radius: 50px;
+}
+
+h1{
+    color: hsl(315, 87%, 78%);
+    display: table; margin-left: auto; margin-right: auto;
+
+}
+
+#btn{
+    margin-top:30px;
+    display: table; margin-left: auto; margin-right: auto;
+}
+
+ul{
+    display: table; margin-left: auto; margin-right: auto;
+}
+
+li{
+    text-align: left;
+}

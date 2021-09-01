@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <title>유림이의 사랑 주문하기♡</title>
+</head>
+<body>
+<div id="container" style="width: 480px; margin: 40px auto;">
+<h1>유림이의 사랑 주문하기</h1>
+<fieldset>
+    <legend>배송 정보</legend>
+    <ul id="shipping">
+        <li>
+            <label for="user_name">이름  </label>
+            <input type="text" id="user_name">
+        </li>
+        <li>
+            <label for="tel">연락처</label>
+            <input type="tel" id="tel">
+        </li>
+        <li>
+            <label for="date">배송 지정</label>
+            <input type="date" id="date"><small>(주문일로부터 최소 3일 이후)</small>
+        </li>
+        <li>
+            <label for="memo">메모</label>
+            <textarea id="memo" cols="40" rows="4"></textarea>
+        </li>
+    </ul>
+</fieldset>
+<fieldset>
+    <legend>상품 선택</legend>
+    <p><b>주문할 상품을 선택해 주세요.</b></p>
+    <label>
+        <select>
+            <option value="o1" selected>유림이의 사랑♡(특소)</option>
+            <option value="o2" >유림이의 사랑♡(소)</option>
+            <option value="o2" >유림이의 사랑♡(중)</option>
+            <option value="o2" >유림이의 사랑♡(대)</option>
+            <option value="o2" >유림이의 사랑♡(특대)</option>
+        </select>
+    </label>
+    <p><b>!추가 사항!</b></p>
+    <ul>
+<li><label><input type="checkbox" value="p1"> 유림이와 하루 전화권♥</label></li>
+<li><label><input type="checkbox" value="p1"> 유림이와 하루 데이트권♥</label></li>
+</fieldset>
+<div>
+    <input type="submit" id="btn" value="당장 주문하기!">
+</div>
+</form>
+</div>
+</body>
+</html>
