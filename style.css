@@ -1,10 +1,9 @@
 body{
-    width: auto;
     background-color:hsl(308, 43%, 90%);
 }
 
 fieldset {
-    width: auto;
+    width: 80%;
 	text-align: center;
 	border: 5px solid;
     color: hsl(315, 87%, 78%);
@@ -12,7 +11,7 @@ fieldset {
 }
 
 h1{
-    width: auto;
+    width: 80%;
     color: hsl(315, 87%, 78%);
     display: table; margin-left: auto; margin-right: auto;
 
@@ -20,7 +19,9 @@ h1{
 
 #btn{
     margin-top:30px;
-    display: table; margin-left: auto; margin-right: auto;
+    display: table; margin-left: 110px; margin-right: 50px;
+    width: 40%;
+    
 }
 
 ul{
@@ -29,4 +30,8 @@ ul{
 
 li{
     text-align: left;
+}
+
+#container{
+    width: 100%;
 }
