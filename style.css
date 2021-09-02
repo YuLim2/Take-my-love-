@@ -1,26 +1,39 @@
 body{
     background-color:hsl(308, 43%, 90%);
+    display: table; margin-left: auto; margin-right: auto;
 }
 
 fieldset {
-    width: 80%;
+    width: 100%;
 	text-align: center;
 	border: 5px solid;
     color: hsl(315, 87%, 78%);
 	border-radius: 50px;
+    display: table; margin-left: auto; margin-right: auto;
 }
 
 h1{
-    width: 80%;
     color: hsl(315, 87%, 78%);
     display: table; margin-left: auto; margin-right: auto;
 
 }
 
 #btn{
-    margin-top:30px;
-    display: table; margin-left: 110px; margin-right: 50px;
-    width: 40%;
+    background:hsl(315, 87%, 78%);
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    display: table; margin-left: auto; margin-right: auto;
+    margin-top: 30px;
+    border-radius: 50px;
+
+  }
     
 }
 
