@@ -23,6 +23,10 @@
             <input type="tel" id="tel">
         </li>
         <li>
+            <label for="how_much">유림이를 사랑하는 정도</label>
+            <input type="range" id="how_much" min="100" max="200">
+        </li>
+        <li>
             <label for="date">배송</label>
             <input type="date" id="date"><small>(주문일로부터 3일 이후)</small>
         </li>
@@ -50,7 +54,7 @@
 <li><label><input type="checkbox" value="p1"> 유림이와 하루 데이트권♥</label></li>
 </fieldset>
 <div>
-    <input type="submit" id="btn" value="당장 주문하기!">
+    <input type="submit" id="btn" value="당장 주문하기!" onclick="alert('주문 완룡!')">
 </div>
 </form>
 </div>
